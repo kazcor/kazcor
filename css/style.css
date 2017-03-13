@@ -1,0 +1,317 @@
+
+
+body{
+  display:none;
+  padding: 0;
+  margin: 0;
+ background-image: url(https://s28.postimg.org/cgpr2b5x9/sayagata.png);
+background-repeat: repeat;
+    background-attachment: fixed;
+    color: black;
+font-family: 'Khand', sans-serif;
+    
+}
+
+.container{
+  display: flex;
+}
+.col1{
+  flex:1;
+}
+.col2{
+  flex:2;
+}
+img{
+  max-width: 100%;
+  margin: auto;
+}
+.logo{
+  margin-left: 10%;
+}
+.intro{
+  margin-left: 10%;
+  font-size: 20px;
+}
+.nav{
+  width: 10%;
+  background-color: gray;
+  float:right;
+  padding: 5px;
+}
+.list{
+  position: fixed;
+  z-index: 2;
+  float: right;
+    margin-left:80%;
+    width:20%;
+    min-width: 100px;
+}
+.list li{
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  background-color: rgba(1,1,1,0.3);
+  color:white;
+  padding: 5px;
+}
+.list li:hover{
+  transition: 0.5s;
+  background-color:white;
+  color:black;
+    }
+  
+}
+col2{
+    flex:2;
+}
+.sub{
+  display:none;
+}
+.face{
+  max-width: 230px;
+  border-radius: 20px;
+  margin: 20px;
+  
+}
+section{
+  margin-top: 50px;
+    background-color: lightgray;
+  border-style: none;
+  border-color: gray;
+  border-width: 1px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+    box-shadow: 2px 10px 10px gray;
+    border-style:solid;
+    border-width: 1px;
+    border-color:slategray;
+}
+.menu{
+    padding: 0;
+}
+}
+.row{
+  display: flex;
+}
+.sub{
+  flex: 1;
+}
+.col1 p{
+  font-size: 20px;
+}
+.mid{
+  border-left-style: solid;
+  border-right-style:solid;
+  border-color: gray;
+  border-width: 1px;
+}
+h3{
+ padding: 10px;
+    text-align: center;
+}
+.flexslider{
+   max-width: 25%;
+    margin: auto;
+    margin-bottom: 1%;
+}
+.slides li{
+    width: inherit;
+    height: inherit;
+}
+.minilogo{
+    min-width: 70px;
+    width: 30%; 
+    opacity: 0.5;
+}
+.minilogo:hover{
+  opacity: 1;
+    transition-duration: 0.3s;
+}
+.divs{
+    margin: auto;
+
+    
+    
+}
+.instruktor{
+    align-content:center;
+    background-color: darkgray;
+    box-shadow: 10px 10px 10px gray;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.intro{
+    background-color: lightgray;
+    box-shadow: 2px 10px 10px gray;
+    padding-top: 2%;
+    padding-left: 3%;
+        padding-bottom: 2%;
+    margin-top:5%;
+    padding-right: 2%;
+    border-radius: 5px;
+    border-style:solid;
+    border-width: 1px;
+    border-color:slategray;    
+}
+
+}
+p{
+    color: black;
+}
+i.fa{
+    margin: 5px;
+}
+i.fa:hover{
+    color:white;
+    transition: 0.5s;
+}
+left{
+    border-right-style: solid;
+    border-width: 1px;
+}
+section p,span{
+    font-size: 3vh;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align:center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.nav{
+    display: inline-block;
+    display: none;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    opacity: 0.6;
+    background-color: white;
+    
+}
+.nav:hover{
+   transition-duration: 0.2s;
+    opacity: 1;
+    
+}
+.nav li{
+    display: inline-block;
+    
+    
+}
+.nav p{
+    margin:0;
+    padding: 5px 10px 5px 10px;
+    border-bottom-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+}
+.nav li p:hover{
+    border-color:black;
+
+}
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+a:visited{
+    color:black;
+}
+.bounce{
+       animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    -moz-animation: bounce 2s infinite;
+    -o-animation: bounce 2s infinite;
+}
+.fa-trophy{
+    color: gold;
+}
+.trophies{
+    background-color:dimgray;
+    margin: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+.kontakt{
+    background-color: darkgray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    margin: 2%;
+    padding: 1%;
+}
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+ 40% {-webkit-transform: translateY(-10px);}
+ 60% {-webkit-transform: translateY(-5px);}
+}
+ 
+@-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-10px);}
+ 60% {-moz-transform: translateY(-5px);}
+}
+ 
+@-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-10px);}
+ 60% {-o-transform: translateY(-5px);}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-10px);}
+ 60% {transform: translateY(-5px);}
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav{
+        display:block;
+    }
+    .minilogo{
+        display:none;
+    }
+    .main{
+        display:none;
+    }
+    .container{
+        flex-direction: column;
+        flex-basis: auto;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .list li{
+        display: inline-block;
+        background-color: rgba(100,100,100,0.4);
+    }
+    .list{
+        float: left;
+        margin-left: 0;
+        width: 100%;
+        height: 10px;
+    }
+    .flexslider{
+        max-width: 60%;
+    }
+    .logo,.intro{
+       margin: auto;
+    }
+    .main{
+        height:100px;
+       
+    }
+    
